@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="java.baisc:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="java.baisc.war">
+      <element id="artifact" artifact-name="java.baisc:war exploded" />
+    </root>
+  </artifact>
+</component>
