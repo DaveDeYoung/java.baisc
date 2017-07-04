@@ -18,7 +18,7 @@ public class BeanFactory {
 		try {
 			pro.load(beanFactory.getClass().getClassLoader().getResourceAsStream("app"));
 		} catch (Exception e) {
-			// TODO: handle exception
+			e.printStackTrace();
 		}
 	}
 	
