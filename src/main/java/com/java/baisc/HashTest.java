@@ -9,7 +9,6 @@ public class HashTest {
 		Map<Test, Test> m = new HashMap<Test, Test>();
 		m.put(new Test(), new Test());
 		m.put(new Test(), new Test());
-		
 		System.out.println(m.size());
 	}
 
